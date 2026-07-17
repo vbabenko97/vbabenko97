@@ -12,6 +12,7 @@ I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinic
 
 ## Selected repositories
 
+- **[clinval-validator](https://github.com/vbabenko97/clinval-validator)** — a validation-risk auditor for clinical-AI performance claims: it flags patient-level leakage, weak evaluation splits, and subgroup degradation in a model's `predictions.csv`, then renders a reviewer-style Validation Risk Report. Deterministic Python computes every metric; Claude only explains the risk. *(Python)*
 - **[Self-Organization-Forest](https://github.com/vbabenko97/Self-Organization-Forest)** — a custom forest classifier built on Group Method of Data Handling (GMDH) self-organization, from my master's thesis: classifying liver tissue (normal vs. pathology) from ultrasound image features. *(Python)*
 - **[GeneticRace](https://github.com/vbabenko97/GeneticRace)** — a JavaFX desktop decision-support prototype from my Bachelor's thesis: optimizing treatment strategies for congenital heart defects by combining GMDH classifiers, the Analytic Hierarchy Process (AHP), and a genetic algorithm. *(Java)*
 
