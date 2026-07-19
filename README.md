@@ -22,7 +22,7 @@ I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinic
 
 PhD in Computer Science (2025), Igor Sikorsky Kyiv Polytechnic Institute — dissertation on hierarchical classification for pathology diagnosis from medical images of different modalities.
 
-28 publications (Scopus citations: 25, h-index: 3, as of April 2026), including 7 Scopus-indexed journal articles and 7 Scopus-indexed conference papers (IEEE, Springer), among them a first-author methodology paper in *Cybernetics and Systems Analysis* (Springer).
+29 publications (Scopus citations: 25, h-index: 3, as of April 2026), including 7 Scopus-indexed journal articles and 8 Scopus-indexed conference papers (IEEE, Springer), among them a first-author methodology paper in *Cybernetics and Systems Analysis* (Springer).
 
 → [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
 
