@@ -1,6 +1,6 @@
 # Vitalii Babenko
 
-Clinical machine learning & medical imaging (PhD) · production GenAI systems · validation methodology for models that must hold up in the clinic.
+Clinical machine learning & medical imaging (PhD) · production of GenAI systems · validation methodology for models that must hold up in the clinic.
 
 I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinical machine learning for medical image analysis across ultrasound, CT, and MRI. My focus is the validation methodology that decides whether a model holds up beyond curated benchmarks — leakage-aware and patient-grouped cross-validation, patient-level aggregation, calibration, and robustness under acquisition and cohort shift. My doctoral work developed hierarchical ensemble classifiers for multi-class pathology diagnosis, with clinical evaluation in liver fibrosis staging and applied work in cardiac imaging and physiological-signal analysis for stress and cognitive workload. In parallel, I build production GenAI backend systems in industry. I am open to postdoctoral and research collaborations in Vienna and Europe at the intersection of clinical ML, medical imaging, and trustworthy AI.
 
@@ -22,9 +22,9 @@ I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinic
 
 PhD in Computer Science (2025), Igor Sikorsky Kyiv Polytechnic Institute — dissertation on hierarchical classification for pathology diagnosis from medical images of different modalities.
 
-29 publications (Scopus citations: 25, h-index: 3, as of April 2026), including 7 Scopus-indexed journal articles and 8 Scopus-indexed conference papers (IEEE, Springer), among them a first-author methodology paper in *Cybernetics and Systems Analysis* (Springer).
+29 publications (Scopus citations: 30, h-index: 3, as of July 2026), including 7 Scopus-indexed journal articles and 8 Scopus-indexed conference papers (IEEE, Springer), among them a first-author methodology paper in *Cybernetics and Systems Analysis* (Springer).
 
-→ [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
+→ [Scopus]([https://orcid.org/0000-0002-8433-3878](https://www.scopus.com/authid/detail.uri?authorId=57221875186)) · [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
 
 ## Tech
 
@@ -36,4 +36,4 @@ PhD in Computer Science (2025), Igor Sikorsky Kyiv Polytechnic Institute — dis
 
 ## Contact
 
-Vienna, Austria · [vbabenko2191@gmail.com](mailto:vbabenko2191@gmail.com) · [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/vbabenk)
+Vienna, Austria · [vbabenko2191@gmail.com](mailto:vbabenko2191@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vbabenk) · [Scopus]([https://orcid.org/0000-0002-8433-3878](https://www.scopus.com/authid/detail.uri?authorId=57221875186)) · [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
