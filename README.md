@@ -1,6 +1,6 @@
 # Vitalii Babenko
 
-Clinical machine learning & medical imaging (PhD) · production of GenAI systems · validation methodology for models that must hold up in the clinic.
+Clinical machine learning & medical imaging (PhD) · production GenAI systems · validation methodology for models that must hold up in the clinic.
 
 I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinical machine learning for medical image analysis across ultrasound, CT, and MRI. My focus is the validation methodology that decides whether a model holds up beyond curated benchmarks — leakage-aware and patient-grouped cross-validation, patient-level aggregation, calibration, and robustness under acquisition and cohort shift. My doctoral work developed hierarchical ensemble classifiers for multi-class pathology diagnosis, with clinical evaluation in liver fibrosis staging and applied work in cardiac imaging and physiological-signal analysis for stress and cognitive workload. In parallel, I build production GenAI backend systems in industry. I am open to postdoctoral and research collaborations in Vienna and Europe at the intersection of clinical ML, medical imaging, and trustworthy AI.
 
