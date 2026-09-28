@@ -1,41 +1,34 @@
 # Vitalii Babenko
 
-Clinical machine learning & medical imaging (PhD) · production GenAI systems · validation methodology for models that must hold up in the clinic.
+**AI/ML Engineer · PhD in Computer Science · Vienna, Austria**
 
-I am a Vienna-based PhD in Computer Science (2025) working on trustworthy clinical machine learning for medical image analysis across ultrasound, CT, and MRI. My focus is the validation methodology that decides whether a model holds up beyond curated benchmarks — leakage-aware and patient-grouped cross-validation, patient-level aggregation, calibration, and robustness under acquisition and cohort shift. My doctoral work developed hierarchical ensemble classifiers for multi-class pathology diagnosis, with clinical evaluation in liver fibrosis staging and applied work in cardiac imaging and physiological-signal analysis for stress and cognitive workload. In parallel, I build production GenAI backend systems in industry. I am open to postdoctoral and research collaborations in Vienna and Europe at the intersection of clinical ML, medical imaging, and trustworthy AI.
+I work on GenAI backend systems and ML evaluation, with a research background in medical imaging. My engineering work covers event-driven inference, provider integrations and observability; my research focuses on patient-level evaluation, calibration and reproducibility.
 
-## Current focus
+## Engineering
 
-- **Medical imaging / clinical ML** — robust, reproducible evaluation of clinical models (radiomics, texture analysis, ensemble methods) across ultrasound, CT, and MRI.
-- **Production GenAI systems** — event-driven inference backends (FastAPI, AWS), provider-resilient integration, and drift monitoring; reliability and deployment constraints for ML in production.
-- **Physiological-signal research** — stress and cognitive-workload classification from HR/BP/HRV signals, within the NATO SPS "Real-Time Stress Monitoring" project with the University of Calgary.
+- **Production GenAI:** built and operated a FastAPI/AWS backend for multimodal generation, integrated external AI providers, and implemented retries, tracing, cost monitoring and asynchronous inference workflows.
+- **Applied ML:** developed and deployed churn and lifetime-value models, with model- and data-drift monitoring.
+- **Current work:** building an internal knowledge assistant with TypeScript/Deno, PostgreSQL text retrieval, tool use and application-enforced source citations. This project is in progress.
 
-## Selected repositories
+## Selected projects
 
-- **[clinval-validator](https://github.com/vbabenko97/clinval-validator)** — a validation-risk auditor for clinical-AI performance claims: it flags patient-level leakage, weak evaluation splits, and subgroup degradation in a model's `predictions.csv`, then renders a reviewer-style Validation Risk Report. Deterministic Python computes every metric; Claude only explains the risk. *(Python)*
-- **[repro-survival-model-evaluation](https://github.com/vbabenko97/repro-survival-model-evaluation)** — an agent-driven, CPU-only reproduction of the ICML 2026 paper *When Can We Trust Survival Model Evaluation?* on real METABRIC data at reduced scale (one dataset, four classical CPU models): Claim 1 reproduced, Claim 2 graded `partial` in the repository, which also records the challenge's differing automated `verified` verdict (quality `medium`) and the limitations. [Live logbook (Trackio Space)](https://huggingface.co/spaces/vbabenko97/repro-when-can-we-trust-survival-model-evaluation). *(Python)*
-- **[repro-instance-level-costs](https://github.com/vbabenko97/repro-instance-level-costs)** — an agent-driven reproduction of the ICML 2026 paper *Instance-Level Costs for Nuanced Classifier Evaluation* on its publicly obtainable datasets: the headline result reproduces on real Jigsaw data (error rate 2.92x the cost-weighted NEC metric; paper ~3x), cost-weighted training only partially, and the fine-tuned-model results were not reproduced (no GPU). The challenge's automated judge graded the NEC claim `verified` and the cost-weighting claim `inconclusive` (quality `high`). [Live logbook (Trackio Space)](https://huggingface.co/spaces/vbabenko97/repro-instance-level-costs). *(Python)*
-- **[RFOCT](https://github.com/vbabenko97/RFOCT)** — Random Forest of Optimal-Complexity Trees, a custom tree ensemble for classification: the research/reference implementation of the algorithm published in *Cybernetics and Systems Analysis* (2023) for classifying pathologies on medical images. *(Python)*
-- **[GeneticRace](https://github.com/vbabenko97/GeneticRace)** — a JavaFX desktop decision-support prototype from my Bachelor's thesis: optimizing treatment strategies for congenital heart defects by combining GMDH classifiers, the Analytic Hierarchy Process (AHP), and a genetic algorithm. *(Java)*
-
-<!-- Add LiverRight (liver-fibrosis-from-ultrasound radiomics app) here once the clean public version is published. -->
+- **[clinval-validator](https://github.com/vbabenko97/clinval-validator)** — clinical-ML evaluation tooling for patient leakage, split-sensitivity and subgroup degradation. Python computes the metrics; optional Claude reporting explains the findings. Demonstrated on synthetic/public-schema data.
+- **[repro-survival-model-evaluation](https://github.com/vbabenko97/repro-survival-model-evaluation)** — agent-driven, CPU-only reproduction of an ICML 2026 paper on survival-model evaluation. On METABRIC at reduced scale: one claim reproduced, one graded partial in the repository.
+- **[repro-instance-level-costs](https://github.com/vbabenko97/repro-instance-level-costs)** — agent-driven reproduction of an ICML 2026 paper on cost-sensitive classifier evaluation. The headline result reproduces on Jigsaw; cost-weighted training only partially; fine-tuned-model results were not reproduced.
+- **[finance-bot](https://github.com/vbabenko97/finance-bot)** — single-user Telegram finance bot built with Python, AWS Lambda and DynamoDB, with Terraform infrastructure, recurring bookings and CSV export.
+- **[RFOCT](https://github.com/vbabenko97/RFOCT)** — research/reference implementation of Random Forest of Optimal-Complexity Trees, the medical-image classification algorithm from my first-author 2023 paper in *Cybernetics and Systems Analysis*.
+- **[ABPMHemodynamicCoupling](https://github.com/vbabenko97/ABPMHemodynamicCoupling)** — research pipeline for stress-linked blood-pressure analysis, with subject-level modelling, cohort statistics and a Streamlit review interface. Supports our IEEE ELNANO 2026 work.
 
 ## Research
 
-PhD in Computer Science (2025), Igor Sikorsky Kyiv Polytechnic Institute — dissertation on hierarchical classification for pathology diagnosis from medical images of different modalities.
+PhD in Computer Science, **Igor Sikorsky Kyiv Polytechnic Institute (2025)**. My doctoral work studied hierarchical ensemble classifiers for pathology diagnosis from medical images, with retrospective evaluation in liver fibrosis staging and cardiac imaging. I also worked on physiological-signal analysis for stress and cognitive workload in a collaboration with the University of Calgary (2022–2026).
 
-29 publications (Scopus citations: 30, h-index: 3, as of July 2026), including 7 Scopus-indexed journal articles and 8 Scopus-indexed conference papers (IEEE, Springer), among them a first-author methodology paper in *Cybernetics and Systems Analysis* (Springer).
+[ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57221875186)
 
-→ [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57221875186) · [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
+## Tools
 
-## Tech
-
-- **Languages:** Python, SQL, Java, C++
-- **ML / DL:** scikit-learn, PyTorch, XGBoost, LightGBM, TensorFlow
-- **Medical imaging & validation:** radiomics & texture analysis (GLCM, GLRLM), ROI- and patient-level aggregation, leakage-aware nested/grouped CV, calibration (Brier, ECE), OpenCV, ultrasound/CT/MRI preprocessing
-- **Backend / data:** FastAPI, AsyncIO, Pydantic, Jinja2, pandas, NumPy, SciPy
-- **Cloud / infra:** AWS (S3, SQS, Lambda, Glue, SageMaker), Docker
+Python · TypeScript · SQL · FastAPI · PostgreSQL · AWS · Docker · scikit-learn · PyTorch
 
 ## Contact
 
-Vienna, Austria · [vbabenko2191@gmail.com](mailto:vbabenko2191@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vbabenk) · [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57221875186) · [ORCID](https://orcid.org/0000-0002-8433-3878) · [Google Scholar](https://scholar.google.com/citations?user=m5NgeD8AAAAJ&hl=en)
+[LinkedIn](https://www.linkedin.com/in/vbabenk) · [Email](mailto:vbabenko2191@gmail.com)
